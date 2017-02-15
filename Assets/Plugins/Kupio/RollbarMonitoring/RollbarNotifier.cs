@@ -100,7 +100,7 @@ namespace com.kupio.rollbarnotifier
                 return;
             }
 #else
-            if (!EnableProduction)
+            if (!Production)
             {
                 return;
             }
